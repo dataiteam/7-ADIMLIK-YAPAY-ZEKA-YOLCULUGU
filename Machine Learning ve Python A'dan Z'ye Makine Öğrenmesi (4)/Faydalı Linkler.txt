@@ -1,0 +1,5 @@
+Anaconda: https://www.anaconda.com/distribution/
+Kaggle: https://www.kaggle.com/
+Machine Learning Tutorial: https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners
+Deep Learning Tutorial: https://www.kaggle.com/kanncaa1/deep-learning-tutorial-for-beginners
+Recommendation Systems Tutorial: https://www.kaggle.com/kanncaa1/recommendation-systems-tutorial
