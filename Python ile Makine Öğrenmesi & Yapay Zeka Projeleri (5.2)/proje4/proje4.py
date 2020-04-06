@@ -274,9 +274,9 @@ parametersGrid = {'nthread':[4], #when use hyperthread, xgboost may become slowe
 model_xgb = xgb.XGBRegressor()
 
 clf = GridSearchCV(model_xgb, parametersGrid, cv = n_folds, scoring='neg_mean_squared_error', refit=True, n_jobs = 5, verbose=True)
-model_xgb = clf.best_estimator_
 
 clf.fit(X_train, Y_train)
+model_xgb = clf.best_estimator_
 
 y_predicted_dummy = clf.predict(X_test)
 mse = mean_squared_error(Y_test,y_predicted_dummy)
@@ -327,51 +327,3 @@ RobustScaler:
     XGBRegressor MSE: 0.01753270469361755
     Averaged Models MSE: 0.0156928574668921
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
